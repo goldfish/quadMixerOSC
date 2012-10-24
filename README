@@ -8,10 +8,11 @@ https://github.com/goldfish/quadMixerOSC
 
 Basic Instructions
 Setup slOSC and SooperLooper
+Setup Charlie Roberts Control app on an android device
 Run all of the instances of jackminimixer
 Load quadMixerOSC.
 Connect all of output sends
-open [pd quadMixButtonsSL] and connect tablet
+open [pd quadMixButtonsSL] and connect android device
 
 ** Jackminimix
 https://github.com/njh/jackminimix/
@@ -23,6 +24,10 @@ slOSCsender2.pd - edit this patch to use your ip address
 
 ** SooperLooper 
 http://essej.net/sooperlooper/
+
+** Charlie Roberts Control app for Android
+https://github.com/charlieroberts/Control
+https://play.google.com/store/apps/details?id=com.charlieroberts.Control
 
 Further instructions can be found in the slOSC wiki
 https://github.com/goldfish/slOSC/wiki/slOSC
