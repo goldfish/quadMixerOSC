@@ -1,0 +1,28 @@
+# quadMixerOSC
+pure data interface for controlling multiple instances of jackminimixer
+written by goldfish
+see LICENSE file for full copyright and license information
+
+latest version always available here
+https://github.com/goldfish/quadMixerOSC
+
+Basic Instructions
+Setup slOSC and SooperLooper
+Run all of the instances of jackminimixer
+Load quadMixerOSC.
+Connect all of output sends
+open [pd quadMixButtonsSL] and connect tablet
+
+** Jackminimix
+https://github.com/njh/jackminimix/
+
+** slOSC
+https://github.com/goldfish/slOSC
+emOSCulator.pd - the first patch you need to load.
+slOSCsender2.pd - edit this patch to use your ip address
+
+** SooperLooper 
+http://essej.net/sooperlooper/
+
+Further instructions can be found in the slOSC wiki
+https://github.com/goldfish/slOSC/wiki/slOSC
